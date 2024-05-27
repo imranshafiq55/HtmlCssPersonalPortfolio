@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+  }
+  
+  #navbar {
+   position: fixed;
+    width: 100%;
+    top: 0; /* Ensure the navbar stays at the top of the viewport */
+    background-color: darkred; /* Add background color to navbar */
+    z-index: 1000;
+  }
+  
+  #portfolio-img {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+  }
+  
+  span {
+    color: red;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkred;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  #contact {
+    background-color: grey;
+  }
+  
+  .social-link {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-link img {
+    width: 30px;
+    height: auto;
+  }
+  
+  label {
+    color: lightblue;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 500px) {
+    body {
+      background: darkgreen;
+    }
+  }
+  
